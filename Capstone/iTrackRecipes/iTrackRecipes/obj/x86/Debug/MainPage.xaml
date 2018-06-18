@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="iTrackRecipes.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:iTrackRecipes"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBox x:ConnectionId='1' x:Name="txtBoxHeader" HorizontalAlignment="Left" Margin="2,0,0,0" Text="iTrackRecipes" TextAlignment="Center" VerticalAlignment="Top" Height="101" Width="637" FontWeight="Bold" FontSize="36" Background="#3F92B5"/>
+        <Image Source="Assets\AppIcon.PNG" HorizontalAlignment="Left" Height="240" Margin="185,166,0,0" VerticalAlignment="Top" Width="240"/>
+        <TextBlock x:ConnectionId='2' x:Name="txtBlkSlogan" HorizontalAlignment="Left" Margin="165,416,0,0" Text="Tap.Organize.Cook." TextAlignment="Center" VerticalAlignment="Top" Height="54" Width="275" FontSize="24" FontStyle="Italic" FontFamily="Segoe UI" FontWeight="Bold" Foreground="#3F92B5"/>
+        <HyperlinkButton x:Uid="hlkWebsite" Content="SIGN UP" HorizontalAlignment="Left" Margin="165,502,0,0" VerticalAlignment="Top" Background="#3F92B5" Width="105" Foreground="White" FontWeight="Bold"/>
+        <Button x:ConnectionId='3' x:Name="btnLogIn" Content="LOGIN" HorizontalAlignment="Left" Margin="336,502,0,0" VerticalAlignment="Top" Background="#3F92B5" Width="105" Foreground="White" FontWeight="Bold"                       />
+        <HyperlinkButton x:ConnectionId='4' x:Uid="hlkDisclaimer" Content="Disclaimer" HorizontalAlignment="Left" Margin="165,545,0,0" VerticalAlignment="Top" Width="105"                               RenderTransformOrigin="0.415,-0.312"/>
+
+
+    </Grid>
+</Page>
+
